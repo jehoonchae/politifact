@@ -329,7 +329,7 @@
 \makeatletter
 \makeatother
 \makeatletter
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, frame hidden, boxrule=0pt, breakable, interior hidden, sharp corners, enhanced]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, borderline west={3pt}{0pt}{shadecolor}, sharp corners, frame hidden, boxrule=0pt, breakable, interior hidden]}{\end{tcolorbox}}\fi
 \makeatother
 \makeatletter
 \makeatother
@@ -363,36 +363,36 @@ of Political Fact-Checks on Twitter\footnote{Author thanks to Pablo
   \apptocmd{\@title}{\par {\large #1 \par}}{}{}
 }
 \makeatother
-\subtitle{5988 words (excluding references)}
+\subtitle{5995 words (excluding references)}
 \author{Je Hoon Chae\footnote{Doctoral Student, Department of
   Communication, University of California, Los Angeles. email:
   \href{mailto:chae@g.ucla.edu}{chae@g.ucla.edu}. webpage:
   \href{https://jehoonchae.github.io}{https://jehoonchae.github.io}}}
-\date{July 26, 2023}
+\date{July 27, 2023}
 
 \begin{document}
 \maketitle
 \begin{abstract}
-\noindent This study investigates the dissemination dynamics of
-political fact-checking news using a comprehensive dataset of
-\emph{PolitiFact} articles and corresponding Twitter posts from 2016 to
-2021. We specifically examined the penetration of fact-checking content,
-both congruent and discordant with individual beliefs, across partisan
-divides. Our analysis indicates a pronounced inclination for
-fact-checking verdicts to align with Liberal/Democratic predispositions,
-a trend particularly amplified during election cycles. However, this
-does not directly signify a political bias in the fact-checking
-organization, as biases cannot be inferred merely from favorability
-distributions in published content. Also, Twitter users disseminating
-fact-checking news tend to align more with liberal ideologies,
-irrespective of the congruency of the fact-check result. We observe a
-marked rise in the sharing of fact-checking content that aligns with
-users' political ideology during elections, with a notable spike among
-liberal users. Our data also reveals a significant disparity in sharing
-behavior among Twitter users, with a select few heavy users dominating
-the landscape. Crucially, we discover a clear correlation between a
-user's political ideology and their selective sharing behavior, a
-pattern that is particularly evident among conservative users.
+\noindent In this study, we delve into the dynamics of political
+fact-checking news dissemination using an extensive dataset of
+PolitiFact articles and associated Twitter posts spanning from 2016 to
+2021. We focus on how fact-checking content, whether aligned or
+conflicting with individual beliefs, penetrates across partisan divides.
+Our analysis reveals a strong tendency for fact-checking verdicts to
+favor Liberal/Democratic predispositions, a trend that amplifies during
+election cycles, while this trend doesn't directly imply a political
+bias in the fact-checking organization, since favorability distributions
+in published content cannot solely determine biases. Additionally, we
+find that Twitter users sharing fact-checking news predominantly align
+with liberal ideologies, regardless of the congruency of the fact-check
+result. The data shows an increase in the sharing of fact-checking
+content in alignment with users' political ideology during elections,
+with a significant spike among liberal users. Moreover, we unearth a
+substantial disparity in the sharing behavior among Twitter users, with
+a handful of heavy users dominating the dissemination landscape.
+Importantly, we uncover a clear connection between a user's political
+ideology and their tendency to selectively share content, a pattern
+especially pronounced among conservative users.
 \end{abstract}
 \setlength{\parindent}{20pt}
 \setlength{\parskip}{0pt}
@@ -515,179 +515,174 @@ conservative users.
 \section{Partisan Selective Sharing of Fact-Checking News on Social
 Media}\label{partisan-selective-sharing-of-fact-checking-news-on-social-media}}
 
-Our understanding of the sharing of political fact-checking news on
-social media is approached through the framework of the two-step flow
+We approach our understanding of how political fact-checking news is
+shared on social media through the lens of the two-step flow
 communication theory (\protect\hyperlink{ref-katz1957two}{Katz, 1957};
-\protect\hyperlink{ref-katz1955personal}{Katz \& Lazarsfeld, 1955}),
-complemented with insights from theories centered around
+\protect\hyperlink{ref-katz1955personal}{Katz \& Lazarsfeld, 1955}). We
+supplement this with insights from theories surrounding
 partisan-motivated information processing
 (\protect\hyperlink{ref-kunda1990case}{Kunda, 1990};
 \protect\hyperlink{ref-stroud2010polarization}{Stroud, 2010};
 \protect\hyperlink{ref-taber2006motivated}{Taber \& Lodge, 2006}). The
-two-step flow communication theory proposes that media messages
-typically reach the general public through interpersonal relationships,
-rather than directly from their original sources
-(\protect\hyperlink{ref-katz1957two}{Katz, 1957}). In the context of
+two-step flow communication theory posits that interpersonal
+relationships, rather than direct interaction with the original sources,
+usually convey media messages to the general public
+(\protect\hyperlink{ref-katz1957two}{Katz, 1957}). In the realm of
 fact-checking news on social media, these intermediary ``opinion
 leaders'' (\protect\hyperlink{ref-lazarsfeld1944people}{Lazarsfeld et
-al., 1944}) actively engage with fact-checking sites, digest
-fact-checked posts early on, and disseminate the scrutinized information
-within their networks
-(\protect\hyperlink{ref-chadwick2011political}{Chadwick, 2011};
-\protect\hyperlink{ref-kim2013stumbling}{Kim et al., 2013}). These
-individuals, due to their heightened political involvement, are
-instrumental in the propagation of fact-checked news
+al., 1944}) actively interact with fact-checking sites, digest
+fact-checked posts early, and circulate the examined information within
+their networks (\protect\hyperlink{ref-chadwick2011political}{Chadwick,
+2011}; \protect\hyperlink{ref-kim2013stumbling}{Kim et al., 2013}).
+Owing to their heightened political involvement, these individuals play
+a crucial role in spreading news on social media
 (\protect\hyperlink{ref-messing2014selective}{Messing \& Westwood,
 2014}).
 
-The rise of social media platforms amplifies the importance of the
-two-step flow theory. Most social media users, as identified in prior
-research (\protect\hyperlink{ref-guess2020exposure}{Guess et al.,
-2020}), may not directly access fact-checking news, despite its wide
-availability. Instead, this news is disseminated through opinion leaders
-or heavy social media users who share this content within their networks
-(\protect\hyperlink{ref-bode2016political}{Bode, 2016}). The network's
-acceptance or rejection of fact-checked information may hinge
-significantly on the interpretation and presentation of these opinion
-leaders (\protect\hyperlink{ref-bakshy2015exposure}{Bakshy et al.,
-2015}). Furthermore, the two-step flow theory illuminates the existence
-of echo chambers and information bubbles on social media. If opinion
-leaders predominantly share fact-checking news aligning with their
-ideological predispositions, their networks may primarily be exposed to
-this selectively presented information, thereby fostering echo chambers
-and ideological polarization
+The emergence of social media platforms has magnified the importance of
+the two-step flow theory. Prior research has found that most social
+media users may not directly engage with fact-checking news, despite its
+extensive availability (\protect\hyperlink{ref-guess2020exposure}{Guess
+et al., 2020}). Instead, opinion leaders or heavy social media users
+share this content within their networks, distributing the news
+(\protect\hyperlink{ref-bode2016political}{Bode, 2016}). The
+interpretation and presentation by these opinion leaders significantly
+influence their network's acceptance or rejection of fact-checked
+information (\protect\hyperlink{ref-bakshy2015exposure}{Bakshy et al.,
+2015}). Moreover, the two-step flow theory highlights the existence of
+echo chambers and information bubbles on social media. If opinion
+leaders mainly share fact-checking news that aligns with their
+ideological predispositions, their networks primarily get exposure to
+this selectively presented information. This dynamic fosters echo
+chambers and ideological polarization
 (\protect\hyperlink{ref-barbera2015social}{Barberá, 2015b};
 \protect\hyperlink{ref-flaxman2016filter}{Flaxman et al., 2016}).
 
-Social media platforms like Twitter and Facebook have extended the
-applicability of the two-step flow of communication theory, serving as
-ideal environments for opinion leaders to transmit information to a
-broad audience. For instance, Barberá et al.
-(\protect\hyperlink{ref-barbera2015tweeting}{2015})'s study of Twitter
-users during the 2016 U.S. election found that politically engaged
-individuals often initiated the spread of political information. Less
-politically engaged individuals then shared and consumed this
-disseminated information. This pattern echoes the two-step flow of
-communication theory, where opinion leaders receive information from
-mass media before broadcasting it to their followers, shaping public
+Twitter and Facebook, as social media platforms, have expanded the
+applicability of the two-step flow of communication theory. They serve
+as perfect environments for opinion leaders to convey information to a
+wide audience. For instance, a study on Twitter users during the 2016
+U.S. election found that politically engaged individuals often spurred
+the spread of political information
+(\protect\hyperlink{ref-barbera2015tweeting}{Barberá et al., 2015}).
+Individuals less politically engaged then shared and consumed this
+distributed information. This pattern is a reflection of the two-step
+flow of communication theory, where opinion leaders get information from
+mass media and then broadcast it to their followers, shaping public
 opinion (\protect\hyperlink{ref-barbera2015tweeting}{Barberá et al.,
-2015}). Furthermore, Wells et al.
-(\protect\hyperlink{ref-wells2016coproduction}{2016}) revealed that
-Facebook users with strong partisan beliefs were more inclined to share
-news articles that reinforced their perspectives. This action represents
-the first step in the two-step flow, as these partisan users share news
-within their social networks, which subsequently influence the views of
-their less politically active friends and followers. The clear
-manifestation of the two-step flow of communication on both Twitter and
-Facebook reaffirms the theory's relevance in today's digital media
-landscape.
+2015}). Additionally, it was revealed that Facebook users with strong
+partisan beliefs were more likely to share news articles that bolstered
+their perspectives (\protect\hyperlink{ref-wells2016coproduction}{Wells
+et al., 2016}). These partisan users disseminate news within their
+social networks, influencing their less politically active friends' and
+followers' views. This action represents the first step in the two-step
+flow. The explicit display of the two-step flow of communication on both
+Twitter and Facebook reaffirms the theory's relevance in today's digital
+media landscape.
 
-Yet, what psychological factors motivate individuals to selectively
-share news on social media? At its core, users' news sharing behavior on
-social media is an exercise in self-presentation
+So, what are the psychological factors that drive individuals to
+selectively share news on social media? Essentially, users' news sharing
+behavior on social media is a self-presentation exercise
 (\protect\hyperlink{ref-gantz1979people}{Gantz \& Trenholm, 1979};
 \protect\hyperlink{ref-kraft2020social}{Kraft et al., 2020};
-\protect\hyperlink{ref-walther1996computer}{Walther, 1996}). Users
-typically share news contemplating an ``imagined audience,'' intending
-to influence this audience with their shared content
-(\protect\hyperlink{ref-litt2012knock}{Litt, 2012};
+\protect\hyperlink{ref-walther1996computer}{Walther, 1996}). Users often
+share news while imagining an audience they intend to influence with
+their shared content (\protect\hyperlink{ref-litt2012knock}{Litt, 2012};
 \protect\hyperlink{ref-litt2016imagined}{Litt \& Hargittai, 2016}). The
-criteria for determining the perceived shareworthiness of news content
-can vary across individuals and contexts
+criteria for determining the perceived worthiness of news content to
+share can vary across individuals and contexts
 (\protect\hyperlink{ref-karnowski2021worth}{Karnowski et al., 2021};
 \protect\hyperlink{ref-kumpel2015news}{Kümpel et al., 2015}). However,
-within the purview of our study---sharing behavior related to political
-fact-checking---it is plausible to posit that partisanship is the
-primary motivator. By examining this behavior through the lens of social
-identity theory (\protect\hyperlink{ref-tajfel1982social}{Tajfel, 1982};
+within our study's scope---sharing behavior related to political
+fact-checking---we posit that partisanship is the primary driver.
+Viewing this behavior through the lens of social identity theory
+(\protect\hyperlink{ref-tajfel1982social}{Tajfel, 1982};
 \protect\hyperlink{ref-turner1987rediscovering}{Turner et al., 1987}),
-we infer that partisan individuals do not merely align with their
+we infer that partisan individuals don't merely align with their
 political in-groups based on shared political preferences. Instead, they
 project their identity onto these in-groups
 (\protect\hyperlink{ref-iyengar2012affect}{Iyengar et al., 2012},
 \protect\hyperlink{ref-iyengar2019origins}{2019}). This affiliation
-naturally predisposes social media users with partisan leanings to
-prioritize directional goals over accuracy when deciding on the news
-content to share, a behavior consistent with the principles of motivated
-reasoning (\protect\hyperlink{ref-kunda1990case}{Kunda, 1990}).
-Consequently, this bias systematically influences their decisions on
-which content to share, favoring those that correspond with their
-in-group's views.
+naturally leads social media users with partisan leanings to prioritize
+directional goals over accuracy when deciding what news content to
+share, a behavior in line with the principles of motivated reasoning
+(\protect\hyperlink{ref-kunda1990case}{Kunda, 1990}). Consequently, this
+bias systematically affects their decisions on what content to share,
+favoring those aligning with their in-group's views.
 
-Empirical evidence further substantiates our proposition about
-partisanship being a decisive factor in news sharing behavior on social
-media, with subsequent implications for the formation of echo chambers.
-A study by Bakshy et al.
-(\protect\hyperlink{ref-bakshy2015exposure}{2015}) examining ideological
-diversity in shared and consumed news content on Facebook revealed that
-individuals are primarily influenced by their own choices despite a
-modest decrease in exposure to ideologically diverse content due to
-Facebook's algorithm. This inclination towards exposure and engagement
-with politically congruent content highlights the user's role in
-selective sharing. Furthermore, Bowen et al.
-(\protect\hyperlink{ref-bowen2023learning}{2023}) identifies selective
-sharing as a catalyst for echo chambers. Their findings suggest that
-individuals selectively share information even when exposed to the same
-primary information, shaping the information landscape of their networks
-and causing belief divergence and polarization. This indicates a
-pronounced preference among partisans for sharing like-minded news
-content.
+Further empirical evidence bolsters our proposition about partisanship
+being a decisive factor in news sharing behavior on social media, with
+subsequent implications for the formation of echo chambers. A study
+examining ideological diversity in shared and consumed news content on
+Facebook showed that individuals are primarily swayed by their own
+choices despite a modest decrease in exposure to ideologically diverse
+content due to Facebook's algorithm
+(\protect\hyperlink{ref-bakshy2015exposure}{Bakshy et al., 2015}). This
+inclination towards exposure and engagement with politically congruent
+content emphasizes the user's role in selective sharing. Furthermore,
+selective sharing has been identified as a catalyst for echo chambers
+(\protect\hyperlink{ref-bowen2023learning}{Bowen et al., 2023}).
+Findings suggest that individuals selectively share information even
+when they are exposed to the same primary information. This shapes the
+information landscape of their networks, causing belief divergence and
+polarization. This highlights a strong preference among partisans for
+sharing like-minded news content.
 
-The propensity for selective sharing has been observed to extend beyond
-mainstream news, permeating the realms of both fabricated news, or `fake
-news', and fact-checking news. Guess et al.
-(\protect\hyperlink{ref-guess2020exposure}{2020}) provided evidence
-illustrating this pattern during the 2016 US Presidential elections,
-where it was found that partisan individuals selectively disseminated
-``fake news'' that resonated with their political leanings, particularly
-among conservative voters. As a result, unfounded news from questionable
-sources gained considerable traction on social media platforms,
-amplifying echo chambers and facilitating the spread of misinformation.
-Osmundsen et al. (\protect\hyperlink{ref-osmundsen2021partisan}{2021})
-highlight that while other psychological motivators such as cognitive
-laziness (\protect\hyperlink{ref-pennycook2019lazy}{Pennycook \& Rand,
-2019}), disruptive motivation
-(\protect\hyperlink{ref-petersen2020need}{Petersen et al., 2020}), or
-partisan directional motivation Taber \& Lodge
-(\protect\hyperlink{ref-taber2006motivated}{2006}) are significant, it
-is partisanship-based motivation that most potently influences the
-sharing behavior of fake news. Concurrently, Shin \& Thorson
-(\protect\hyperlink{ref-shin2017partisan}{2017}) provided empirical
-support for the notion that partisan individuals selectively circulate
-fact-checking messages that either praise their chosen candidate or
-denigrate the opposition. This behavior results in an ideologically
-biased dissemination of fact-checks to their followers. This clear
-tendency among partisan individuals to selectively share politically
-compatible content underscores the influence of pre-existing attitudes
-on information sharing behaviors.
+Selective sharing extends beyond mainstream news, infiltrating both
+fabricated news or `fake news' and fact-checking news. Evidence from the
+2016 US Presidential elections illustrated this pattern, where it was
+found that partisan individuals selectively distributed ``fake news''
+that resonated with their political leanings, particularly among
+conservative voters (\protect\hyperlink{ref-guess2020exposure}{Guess et
+al., 2020}). Consequently, unfounded news from questionable sources
+gained significant traction on social media platforms, amplifying echo
+chambers and facilitating the spread of misinformation. Other
+psychological motivators such as cognitive laziness
+(\protect\hyperlink{ref-pennycook2019lazy}{Pennycook \& Rand, 2019}),
+disruptive motivation (\protect\hyperlink{ref-petersen2020need}{Petersen
+et al., 2020}), or partisan directional motivation Taber \& Lodge
+(\protect\hyperlink{ref-taber2006motivated}{2006}) are significant. Yet,
+it is the partisanship-based motivation that most powerfully influences
+the sharing behavior of fake news
+(\protect\hyperlink{ref-osmundsen2021partisan}{Osmundsen et al., 2021}).
+Concurrently, empirical support exists for the idea that partisan
+individuals selectively circulate fact-checking messages that either
+praise their chosen candidate or denigrate the opposition
+(\protect\hyperlink{ref-shin2017partisan}{Shin \& Thorson, 2017}). This
+behavior results in an ideologically biased distribution of fact-checks
+to their followers. This clear tendency among partisan individuals to
+selectively share politically compatible content underscores the
+influence of pre-existing attitudes on information sharing behaviors.
 
 \hypertarget{present-study-research-questions}{%
 \section{Present Study \& Research
 Questions}\label{present-study-research-questions}}
 
-To explore the dissemination of political fact-checking in real-world
-contexts via social media, our study focuses on the operations of
-\emph{PolitiFact}. This organization is recognized as one of the most
-active fact-checking entities in the United States. \emph{PolitiFact}
-distinguishes itself by assigning one of six truthfulness levels---Pants
-on Fire, False, Mostly False, Half True, Mostly True, or True---to every
-factual claim they assess. This practice significantly aids our research
-process, as it provides a straightforward way to identify the political
-target of the fact-check and to quantify the factual accuracy of each
-statement (as another example see,
-\protect\hyperlink{ref-mosleh2022measuring}{Mosleh \& Rand, 2022}). As
-such, it becomes feasible to assess the congruency of each fact-checking
-news article.
+Our study delves into the real-world dissemination of political
+fact-checking via social media by focusing on the operations of
+\emph{PolitiFact.} Recognized as one of the most active fact-checking
+bodies in the United States, \emph{PolitiFact} stands out by attributing
+one of six truthfulness levels---Pants on Fire, False, Mostly False,
+Half True, Mostly True, or True---to every factual claim they evaluate.
+This practice significantly facilitates our research process. It offers
+a clear way to pinpoint the political target of the fact-check and to
+quantify each statement's factual accuracy (as another example see,
+\protect\hyperlink{ref-mosleh2022measuring}{Mosleh \& Rand, 2022}). This
+enables us to assess the congruency of each fact-checking news article.
 
-Our investigation sets out to answer three primary research questions:
-(1) In recent years, what have been the general trends in political
-fact-checking, and how have the outcomes of these checks been congruent
-or divergent with the claims of different political parties and
-ideologies (\textbf{RQ1})? (2) Does the selective sharing of
-fact-checking content on social media occur in accordance with its
-congruence to party or ideological alignments (\textbf{RQ2})?, and (3)
-What traits define those who frequently share political fact-checking
-content on social media (\textbf{RQ3})?
+We embark on our investigation with three primary research questions in
+mind: (1) What patterns emerge in the political dimensions of
+fact-checking, with specific attention to the selection of targets and
+the congruence of fact-checking results with different political parties
+(\textbf{RQ1})? (2) how do the ideological leanings of social media
+users influence the dissemination of political fact-checking news posts,
+with particular emphasis on any partisan or ideological alignment in the
+spread of this content (\textbf{RQ2})? and (3) what are the
+characteristics of social media users who frequently share political
+fact-checking content, especially in terms of their ideological
+leanings, and to what extent does their selective sharing behavior
+correlate with the strength of their political ideologies
+(\textbf{RQ3})?
 
 \hypertarget{materials-and-methods}{%
 \section{Materials and Methods}\label{materials-and-methods}}
@@ -941,7 +936,7 @@ average ideology scores for sharers of Liberal/Democrat congruent posts
 (\(M = -0.66\), \(SD = 0.2\)) and Conservative/Republican congruent
 posts (\(M = -0.16\), \(SD = 0.65\)) exhibit a distinct difference which
 is confirmed by a permutation-based mean comparison result of
-\(Z = 34.962, p< .0001\). The distribution of the latter is both more
+\(z = 34.962, p< .0001\). The distribution of the latter is both more
 skewed and sparse.
 
 Finally, Panel C of \autoref{fig:fig2} represents temporal fluctuations
